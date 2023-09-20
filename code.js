@@ -15,7 +15,7 @@ let guess = 0;
 do {
     guess = parseInt(prompt(`Guess the number between 1 and ${maxNum} `))
     if (guess == goal) {
-        alert(`AMAZING!! IT ONLY TOOK YOU ${count} TRY ♡(ﾐ ᵕ̣̣̣̣̣̣ ﻌ ᵕ̣̣̣̣̣̣ ﾐ)ﾉ`);
+        alert(`AMAZING!! IT ONLY TOOK YOU ${count} TRIES ♡(ﾐ ᵕ̣̣̣̣̣̣ ﻌ ᵕ̣̣̣̣̣̣ ﾐ)ﾉ`);
     } else if (guess < goal) {
         alert(`GUESS H I G H E R ! ! ୧(๑•̀ᗝ•́)૭`)
         count++;
